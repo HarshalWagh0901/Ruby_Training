@@ -1,5 +1,11 @@
 # puts "Hello World"
 
+# arr = [1,2,4,5,6]
+# puts (arr.min..arr.max).to_a
+# puts "---------------------------------------------------"
+# missing_number = ((arr.min..arr.max).to_a-arr)
+# puts missing_number
+
 arr = []
 puts "Enter size of array"
 size = gets.chomp
@@ -14,7 +20,8 @@ puts "Array: #{arr}"
 puts
 puts arr
 puts
-print arr
+print arr.inspect
+puts arr.inspect
 
 
 =begin 
