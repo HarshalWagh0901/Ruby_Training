@@ -16,9 +16,9 @@ puts "Enter the size of array"
 size = gets.chomp.to_i
 puts "Enter #{size.to_i} elements"
 
-(0...size).each do |i|
+(0...size).each do 
     element = gets.chomp
-    arr.push(element)
+    arr.<<(element)     # << is faster and efficient than push method
 end
 
 puts "Array : #{arr.inspect}"   
