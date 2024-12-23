@@ -10,6 +10,7 @@
 arr = [2,3,4,5,6,7,8]
 
 arr_even = arr.select{|n| n.even?}
+# arr_even = arr.select(&:even?)
 
 puts arr_even.inspect
 
